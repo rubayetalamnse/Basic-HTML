@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="useraccont.php" method="get">
+        <!-- username:<br> , or use label -->
+        <label for="username">User Name:</label> <br>
+        <input id="username" type="text"><br>
+        <label for="email">Email:</label> <br>
+        <input id="email" type="email"><br>
+        <label for="password">Password:</label> <br>
+        <input id="password" type="password"><br><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Insert Your Details"></textarea>
+        <br>
+        <label for="gender">Gender:</label> <br>
+        <input id="Male" name="gender" value="Male" type="radio">
+        Male
+        <input id="Female" name="gender" value="Female" type="radio">
+        Female
+        <input id="other" name="gender" value="Other" type="radio">
+        Other
+        <br>
+        <label for="city">City:</label> <br>
+        <input type="text" list="mylist">
+        <datalist id="mylist">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+        </datalist><br>
+        <label for="Age">Age</label> <br>
+        <!-- <input type="submit" value="submit"> -->
+        <select name="select" id="">
+            <option value="teen">teen</option>
+            <option value="Adult">Adult</option>
+            <option value="old">old</option>
+            <br>
+            
+        </select> <br>
+        <button type="button">Submit</button>
+    </form>
+</body>
+</html>
